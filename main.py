@@ -1,7 +1,7 @@
 import sys
 from PIL import Image
 chars = ["B","S","#","&","@","$","%","*","!",":","."]
-image_path ="./Images/leon.png"
+image_path ="./Images/anonymous-crime-criminal-cyber-espionage-hacker-spy-icon-839354.png"
 img = Image.open(image_path)
 
 # resize the image
