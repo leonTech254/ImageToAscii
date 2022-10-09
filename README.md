@@ -24,6 +24,12 @@ Input the image path you want to convert into ASCII in **image_page=''**
 
 ## sample
 
+## image
+
+![image](https://raw.githubusercontent.com/leonTech254/ImageToAscii/main/Images/anonymous-crime-criminal-cyber-espionage-hacker-spy-icon-839354.png)
+
+## output
+
 ```
             ..::..:::..::..::..:::.:::..::..::..:::..::..::..:::.:::..::..::..:::..::..::..:::.:::..::
             ::..:::.:::..::..:::.:::.:::..::..:::.:::..::..:::.:::.:::..::..:::.:::..::..:::.:::.:::..
