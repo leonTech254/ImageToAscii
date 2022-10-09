@@ -1,5 +1,5 @@
 # import sys
-from assets.leonResources import banner
+from assets.leonResources import banner,user_input,custom_output,color
 from PIL import Image
 
 banner.leonBanner()
@@ -27,8 +27,15 @@ new_pixels = ''.join(new_pixels)
 new_pixels_count = len(new_pixels)
 ascii_image = [new_pixels[index:index + new_width] for index in range(0, new_pixels_count, new_width)]
 ascii_image = "\n".join(ascii_image)
-print(ascii_image)
 
 # write to a text file.
-with open("ascii_image.txt", "w") as f:
-    f.write(ascii_image)
+def OutputName():
+    file_name=user_input.useruput("ENTER THE OUTPUT FILE (e.g file.txt)")
+    if file_name=="":
+        custom_output.error("output file name not entered")
+        OutputName()
+    with open(file_name, "w") as f:
+        f.write(ascii_image)
+    print(ascii_image)
+    custom_output.info(f"image converted check {file_name}",color.cyan)
+OutputName()

@@ -1,6 +1,7 @@
 from PIL import Image
+from assets.leonResources import banner
 ascii_char=["@", "#", "＄", "%", "?", "*", "+", ";", ":", ",", "."]
-
+banner.leonBanner()
 # image path
 image_path="./Images/backdoor-removebg-preview(1).png"
 try:
