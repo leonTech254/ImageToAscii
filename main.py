@@ -1,5 +1,8 @@
-import sys
+# import sys
+from assets.leonResources import banner
 from PIL import Image
+
+banner.leonBanner()
 chars = ["B","S","#","&","@","$","%","*","!",":","."]
 image_path ="./Images/anonymous-crime-criminal-cyber-espionage-hacker-spy-icon-839354.png"
 img = Image.open(image_path)
