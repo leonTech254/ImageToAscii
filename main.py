@@ -6,7 +6,6 @@ banner.leonBanner()
 chars = ["B","S","#","&","@","$","%","*","!",":","."]
 image_path ="./Images/anonymous-crime-criminal-cyber-espionage-hacker-spy-icon-839354.png"
 img = Image.open(image_path)
-
 # resize the image
 width, height = img.size
 aspect_ratio = height/width
