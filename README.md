@@ -20,6 +20,8 @@ install modules form requirementes.txt
 
 <span style="color: green"> **_pip install -r requirements.txt_** </span>
 
+Run <span style="color: green"> **python3 main.py** </span>
+
 Input the image path you want to convert into ASCII in **image_page=''**
 
 ## sample
